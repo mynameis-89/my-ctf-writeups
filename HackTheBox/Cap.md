@@ -111,3 +111,6 @@ Now that Python was running with root privileges, you used os.system to tell it 
 Because a child program always inherits the permissions of the parent program that launched it, the new terminal opened up with full root authority. This is why your prompt changed to #, allowing you to walk right into /root/root.txt and read the flag
 
 and congratulations you have finished the challenge successfully.
+
+
+for more details check official hack the box write-up for this machine : https://htb-content-prod-private-storage.s3.eu-central-1.amazonaws.com/machines/writeup/9e4d90d2-73c7-4da0-a15f-662bbc048868.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA47CRVXI3GZ5T5FNV%2F20260701%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260701T145130Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=a7acb9b319abd00e5a5aa12b0b8fd6130b26eafb159e22bc70ca5349deefdaf7
